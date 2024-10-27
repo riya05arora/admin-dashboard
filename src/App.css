@@ -36,3 +36,42 @@
     transform: rotate(360deg);
   }
 }
+
+
+/* src/App.css */
+.app {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.header, .footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 1rem;
+}
+
+.main-content {
+  display: flex;
+  flex: 1;
+}
+
+.sidebar {
+  width: 200px;
+  background-color: #f4f4f4;
+  padding: 1rem;
+}
+
+.sidebar nav a {
+  display: block;
+  margin: 0.5rem 0;
+  color: #333;
+  text-decoration: none;
+}
+
+.page-content {
+  flex: 1;
+  padding: 2rem;
+}
+
